@@ -68,7 +68,7 @@ function Home() {
 
   return (
     <div className="main">
-      <div className="home-hero">
+      <div className="home-hero pt-[10rem] pb-[5rem] lg:py-[15rem]">
         <div className="container mx-auto px-4">
           <div className="home-content">
             <h1 className="text-5xl font-semibold">Empowering <span className="text-red-600">Startups </span>to Thrive <br /> in a Digital World</h1>
@@ -77,7 +77,7 @@ function Home() {
         </div>
       </div>
       <hr />
-      <div className="home-section py-[5rem]">
+      <div className="home-section pt-[4rem] pb-[4rem] lg:py-[7rem]">
         <div className="container mx-auto px-4">
           <div className="text-center">
             <h1 className="text-4xl font-semibold">How <span className="text-red-600">Startups Market</span> Works 🤔</h1>
@@ -131,7 +131,7 @@ function Home() {
       </div>
       <div className="deal-section">
         <div className="container mx-auto px-4">
-          <div className="py-[50px]">
+          <div className="pt-[1rem] pb-[1rem] lg:py-[1rem]">
             <h1 className="text-4xl font-semibold">Recently <span className="text-red-600">Closed</span> Deal </h1>
             <p className="mt-2">Browse the most recent closed deals.</p>
           </div>
@@ -186,35 +186,120 @@ function Home() {
           </div>
         </div >
       </div>
-      <div className="slide-section py-[6rem] bg-stone-50">
-        <div className="container mx-auto px-">
-          <div className="relative w-full max-w-4xl mx-auto">
-            <div className="flex flex-col text-center py-[45px]">
-              <div className="text-center">
-                <h1 className="text-3xl font-bold">Wall Of Love 😍</h1>
-              </div>
-              <p className="text-xl">What our sellers are saying about us</p>
-
-            </div>
-            <div className="overflow-hidden relative">
-              <div className="flex transition-transform duration-700 ease-in-out" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
-                {slides.map((slide) => (
-                  <div key={slide.id} className="flex-shrink-0 w-full  h-64 flex flex-col justify-center items-center border-2 border-gray-100 shadow-xl">
-                    <Image src={slide.image} alt={slide.content} className="w-20 h-20 rounded-full object-cover mb-4" />
-                    <div className="py-[1rem] text-center">
-                      <p className="font-semibold text-2xl">{slide.name}</p>
-                      <p>{slide.role}</p>
-                    </div>
-                    <p className="text-xl text-center mx-w-[200px] mx-auto block mb-4">{slide.content}</p>
+      <div className="testimony-section py-[4rem] text-black bg-stone-50">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-14">
+            <h1 className="text-3xl font-semibold">Wall Of Love 😍</h1>
+            <p className="text-xl">What our sellers are saying about us</p>
+          </div>
+          <div className="testiomony-content">
+            <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-10">
+              <div className="testimony-review shadow-lg p-8 bg-slate-50 cursor-pointer transition duration-700 ease-in-out hover:scale-105 ">
+                <Image src={pic1} className='rounded-full' width={50} height={50} alt='pic author' />
+                <div className="testimony-text">
+                  <h2 className='font-bold text-xl'>Tommy Lee</h2>
+                  <div className='flex'>
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+                      <title>star</title>
+                      <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+                    </svg>
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+                      <title>star</title>
+                      <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+                    </svg>
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+                      <title>star</title>
+                      <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+                    </svg>
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+                      <title>star</title>
+                      <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+                    </svg>
                   </div>
-                ))}
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae cupiditate, veniam enim quis rerum laboriosam repudiandae ipsam optio tenetur sint deserunt at itaque est. Reiciendis aspernatur debitis soluta inventore ex?</p>
+                </div>
+              </div>
+              <div className="testimony-review shadow-lg p-8 bg-slate-50 cursor-pointer transition duration-700 ease-in-out hover:scale-105">
+                <Image src={pic2} className='rounded-full' width={50} height={50} alt='pic author' />
+                <div className="testimony-text">
+                  <h2 className='font-bold text-xl'>Angelo Parker</h2>
+                  <div className='flex'>
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+                      <title>star</title>
+                      <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+                    </svg>
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+                      <title>star</title>
+                      <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+                    </svg>
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+                      <title>star</title>
+                      <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+                    </svg>
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+                      <title>star</title>
+                      <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+                    </svg>
+                  </div>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae cupiditate, veniam enim quis rerum laboriosam repudiandae ipsam optio tenetur sint deserunt at itaque est. Reiciendis aspernatur debitis soluta inventore ex?</p>
+                </div>
+              </div>
+              <div className="testimony-review shadow-lg p-8 bg-slate-50 cursor-pointer transition duration-700 ease-in-out hover:scale-105">
+                <Image src={pic3} className='rounded-full' width={50} height={50} alt='pic author' />
+                <div className="testimony-text">
+                  <h2 className='font-bold text-xl'>Anderson Nick</h2>
+                  <div className='flex'>
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+                      <title>star</title>
+                      <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+                    </svg>
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+                      <title>star</title>
+                      <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+                    </svg>
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+                      <title>star</title>
+                      <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+                    </svg>
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+                      <title>star</title>
+                      <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+                    </svg>
+                  </div>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae cupiditate, veniam enim quis rerum laboriosam repudiandae ipsam optio tenetur sint deserunt at itaque est. Reiciendis aspernatur debitis soluta inventore ex?</p>
+                </div>
+              </div>
+              <div className="testimony-review shadow-lg p-8 bg-slate-50 cursor-pointer transition duration-700 ease-in-out hover:scale-105">
+                <Image src={pic1} className='rounded-full' width={50} height={50} alt='pic author' />
+                <div className="testimony-text">
+                  <h2 className='font-bold text-xl'>Kim Nilson</h2>
+                  <div className='flex'>
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+                      <title>star</title>
+                      <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+                    </svg>
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+                      <title>star</title>
+                      <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+                    </svg>
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+                      <title>star</title>
+                      <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+                    </svg>
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
+                      <title>star</title>
+                      <path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" />
+                    </svg>
+                  </div>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae cupiditate, veniam enim quis rerum laboriosam repudiandae ipsam optio tenetur sint deserunt at itaque est. Reiciendis aspernatur debitis soluta inventore ex?</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
+          </div>
+          </div>
 
-      <div className="note-section py-[4rem]">
+      <div className="note-section py-[5rem]">
         <div className="container mx-auto px-4">
           <h1 className="text-3xl text-center">Join <span className="text-red-600 font-semibold">the Startups Market </span> Today💪</h1>
           <div className="bg-orange-600 p-[50px] text-white rounded-lg mt-10">

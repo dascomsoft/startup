@@ -7,7 +7,7 @@ import logo from '../images/logo.jpg'
 const Footer = () => {
     return (
         <div className="footer-wrapper">
-            <div className="section-footer py-[7rem]">
+            <div className="section-footer py-[4rem]">
                 <div className="container mx-auto px-4">
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-20">
                         <div className="footer-detail">
