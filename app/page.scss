@@ -1,0 +1,44 @@
+
+.home-hero{
+    background-image: url(../images/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:200px 0 200px;
+}
+
+.home-section{
+    #home-image{
+     width:60px;
+     height:60px
+    }
+ }
+
+ @keyframes slide {
+    0%, 20%, 100% {
+      transform: translateX(0); /* Les divs restent centrées */
+    }
+    25%, 45% {
+      transform: translateX(-100vw); /* Déplacement de la 1ère div */
+    }
+    50%, 70% {
+      transform: translateX(-200vw); /* Déplacement de la 2ème div */
+    }
+    75%, 95% {
+      transform: translateX(-300vw); /* Déplacement de la 3ème div */
+    }
+  }
+  
+  .animate-slide-1 {
+    animation: slide 12s linear infinite;
+  }
+  
+  .animate-slide-2 {
+    animation: slide 12s linear infinite;
+    animation-delay: 4s;
+  }
+  
+  .animate-slide-3 {
+    animation: slide 12s linear infinite;
+    animation-delay: 8s;
+  }
