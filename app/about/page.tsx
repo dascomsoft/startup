@@ -17,7 +17,7 @@ import pic3 from '../../images/pic3.png'
 function About() {
   return (
     <div>
-      <div className="home-hero py-[13rem] sm:py-[8rem] ">
+      <div className="home-hero pt-[10rem] pb-[5rem] ">
         <div className="container mx-auto px-4">
           <div className="home-content">
             <p className='text-5xl mb-4'>👋</p>
@@ -27,7 +27,7 @@ function About() {
           </div>
         </div>
       </div>
-      <div className='about-section py-[10rem] sm:py-[5rem] bg-stone-100'>
+      <div className='about-section pt-[5rem] pb-[5rem] bg-stone-100'>
         <div className="container mx-auto px-4">
           <div className="about-text grid md:grid-cols-2 gap-10">
             <div>
