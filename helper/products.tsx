@@ -12,16 +12,16 @@ import deal9 from '../images/deal9.jpg'
 
 
 export const products = [
-    {
-        id: 1,
-        image: deal1,
-        title: 'Children Book AI Generator',
-        price: 15000,
-        arrprice: 1500,
-        sarrprice: 798,
-        date: ' 2023-01-04',
-        subtitle: 'Web Apps',
-        content: `<h2>Overview 🔍</h2>
+  {
+    id: 1,
+    image: deal1,
+    title: 'Children Book AI Generator',
+    price: 15000,
+    arrprice: 1500,
+    sarrprice: 798,
+    date: ' 2023-01-04',
+    subtitle: 'Web Apps',
+    content: `<h2>Overview 🔍</h2>
       <p>Web app with $1,500 Annual Revenue and 500 customers.</p>
       <p>The target audience is Amazon KDP editors.</p>
       <p>Using my project you can design and create beautiful illustrated books for children in just minutes.</p>
@@ -54,18 +54,18 @@ export const products = [
       <p>Codebase, website, domain, emails.</p>
       <h3>Competitors</h3>
       <p>Childbook.ai.</p>`
-    },
+  },
 
-    {
-        id: 2,
-        image: deal2,
-        title: 'Academic Content AI Writing Tool',
-        price: 15000,
-        arrprice: 2100,
-        sarrprice: 1601,
-        date: ' 2022-01-01',
-        subtitle: 'SaaS Businesses ',
-        content: `    <h2 className="font-bold text-2xl">Overview 🔍</h2>
+  {
+    id: 2,
+    image: deal2,
+    title: 'Academic Content AI Writing Tool',
+    price: 15000,
+    arrprice: 2100,
+    sarrprice: 1601,
+    date: ' 2022-01-01',
+    subtitle: 'SaaS Businesses ',
+    content: `    <h2 className="font-bold text-2xl">Overview 🔍</h2>
       <p>Micro-SaaS with $2,100 ARR and 4,300 users.</p>
       <p>The target audience is Students.</p>
       <p>My project is an AI writing assistant that helps students learn and write faster. It can help you generate academic content and collect research data.</p>
@@ -98,26 +98,26 @@ export const products = [
       <p>Web app, domain, customers.</p>
       <h3>Competitors</h3>
       <p>Jenni AI, Writersonic, Quillbot, Grammarly.</p>`
-    },
+  },
 
 
 
-    {
+  {
 
-        id: 3,
-        image: deal3,
-        title: 'Python SaaS Starter Codebase',
-        price: 5001,
-        arrprice: 1100,
-        sarrprice: 598,
-        date: '2022-01-27',
-        subtitle: 'SaaS Businesses',
-        content: ` <h2>Overview 🔍</h2>
+    id: 3,
+    image: deal3,
+    title: 'Python SaaS Starter Codebase',
+    price: 5001,
+    arrprice: 1100,
+    sarrprice: 598,
+    date: '2022-01-27',
+    subtitle: 'SaaS Businesses',
+    content: ` <h2>Overview 🔍</h2>
       <p>Python SaaS starter kit with $1,100 Annual Revenue and 10 customers.</p>
       <p>The target audience is Developers, Indie Hackers.</p>
       <p>My project is a modern SaaS boilerplate in pure Python that saves you months of development time.</p>
       <p>Features like user authentication, subscription based payments, SEO-optimized blog, etc. are all built in.</p>
-      <p>Once the customer purchases the boilerplate, they can start working on adding their own application’s business logic and don’t have to worry about implementing those generic features.</p>
+      <p>Once the customer purchases the boilerplate, they can start working on adding their own application  business logic and do not have to worry about implementing those generic features.</p>
       <ul>
         <li>✅ $1,100 in Annual Revenue</li>
         <li>✅ 10 customers</li>
@@ -142,20 +142,20 @@ export const products = [
       <p>Codebase, website, domain.</p>
       <h3>Competitors</h3>
       <p>PySaaS.</p>`
-    },
+  },
 
 
 
-    {
-        id: 4,
-        image: deal4,
-        title: 'AI Emoji Generator',
-        price: 4999,
-        arrprice: 832,
-        sarrprice: 800,
-        date: '2023-06-07',
-        subtitle: 'Web Apps ',
-        content: `   <h2>Overview 🔍</h2>
+  {
+    id: 4,
+    image: deal4,
+    title: 'AI Emoji Generator',
+    price: 4999,
+    arrprice: 832,
+    sarrprice: 800,
+    date: '2023-06-07',
+    subtitle: 'Web Apps ',
+    content: ` <h2>Overview 🔍</h2>
       <p>Web app with $832 Annual Revenue and 79 paying customers.</p>
       <p>The target audience is Anyone who wants to create an emoji.</p>
       <p>Our project is an AI Emoji Generator that has generated $850 in gross revenue with 10k organic visitors/month. You can give it any prompt and it will turn it into an emoji which you can save to your phone or share with a link.</p>
@@ -178,7 +178,7 @@ export const products = [
       <h3>Tech Stack</h3>
       <p>Next.js, Typescript, Tailwind, Open AI, Replicate, Vercel, Supabase.</p>
       <h3>Reasons For Selling</h3>
-      <p>The three of us all have our own projects and full-time jobs so don’t have enough time to work on it.</p>
+      <p>The three of us all have our own projects and full-time jobs so do not have enough time to work on it.</p>
       <h3>Expenses</h3>
       <ul>
         <li>~$120/month Replicate</li>
@@ -189,19 +189,19 @@ export const products = [
       <p>It has generated revenue, has an organic acquisition channel through SEO and we think it has a lot of unexplored areas such as going more B2B (slack), creating iOS app for stickers, experimenting with pricing. There are also obvious cost savings.</p>
       <h3>Included Assets</h3>
       <p>Website, domain, stripe customers, database.</p>`
-    },
+  },
 
 
-    {
-        id: 5,
-        image: deal5,
-        title: 'AI Job Interview Trainer',
-        price: 3000,
-        arrprice: 392,
-        sarrprice: 148,
-        date: '2023-06-07',
-        subtitle: 'Mobile Apps',
-        content: ` <h2>Overview 🔍</h2>
+  {
+    id: 5,
+    image: deal5,
+    title: 'AI Job Interview Trainer',
+    price: 3000,
+    arrprice: 392,
+    sarrprice: 148,
+    date: '2023-06-07',
+    subtitle: 'Mobile Apps',
+    content: ` <h2>Overview 🔍</h2>
       <p>Mobile app with $392 Annual Revenue and 6 customers.</p>
       <p>The target audience is Job seekers.</p>
       <p>iOS App. Could be easily ported to Android.</p>
@@ -239,19 +239,19 @@ export const products = [
       <p>iOS App, source code, help for deployment could be given.</p>
       <h3>Competitors</h3>
       <p>Liftoff interview.</p>`
-    },
+  },
 
 
-    {
-        id: 6,
-        image: deal6,
-        title: 'Social Media Bookmark Platform',
-        price: 252000,
-        arrprice: 48000,
-        sarrprice: 30000,
-        date: '2021-01-20',
-        subtitle: 'Mobile Apps',
-        content: `    <h2>Overview 🔍</h2>
+  {
+    id: 6,
+    image: deal6,
+    title: 'Social Media Bookmark Platform',
+    price: 252000,
+    arrprice: 48000,
+    sarrprice: 30000,
+    date: '2021-01-20',
+    subtitle: 'Mobile Apps',
+    content: ` <h2>Overview 🔍</h2>
       <p>Micro-SaaS with $48,000 ARR and 620 customers.</p>
       <p>The target audience is Researchers, individuals working in education, and AI enthusiasts.</p>
       <p>I built this project to solve a problem I had. Twitter bookmarks are just awful.</p>
@@ -279,184 +279,201 @@ export const products = [
       <p>Website, domain, codebase, social media accounts, customer data, stripe account.</p>
       <h3>Competitors</h3>
       <p>Mem, Readwise.</p>`
-    },
+  },
 
 
 
 
-    {
-        id: 7,
-        image: deal7,
-        title: 'NextJS SaaS Boilerplate Product',
-        price: 2500,
-        arrprice: 1200,
-        sarrprice: 1800,
-        date: '2020-06-27',
-        subtitle: 'Mobile Apps',
-        content: `
-Overview 🔍
-Overview
+  {
+    id: 7,
+    image: deal7,
+    title: 'NextJS SaaS Boilerplate Product',
+    price: 2500,
+    arrprice: 1200,
+    sarrprice: 1800,
+    date: '2020-06-27',
+    subtitle: 'Mobile Apps',
+    content: `
+    <h2>Overview 🔍</h2>
+<p>Overview</p>
 
-Info product with $1,200 Annual Revenue and 5 customers.
+<p>Info product with $1,200 Annual Revenue and 5 customers.</p>
 
-The target audience is developers, founders, indie hackers.
+<p>The target audience is developers, founders, indie hackers.</p>
 
-I use to always spend so much of time building basic requirement for the app such as – Authentication, Database, Payments, Multi language Support, Landing Page, Blogging and whole lot more.
+<p>I use to always spend so much of time building basic requirement for the app such as – Authentication, Database, Payments, Multi language Support, Landing Page, Blogging and whole lot more.</p>
 
-So I built this boilerplate to save time and thousands of dollars of money, which now help me ship products in days.
+<p>So I built this boilerplate to save time and thousands of dollars of money, which now help me ship products in days.</p>
 
-‍
-✅ $1,200 in Annual Revenue
-✅ 5 customers
-✅ Business model: One-time payment
-✅ Built with Next.js, NextAuth, Stripe, Resend
-Growth Opportunity
+<ul>
+  <li>✅ $1,200 in Annual Revenue</li>
+  <li>✅ 5 customers</li>
+  <li>✅ Business model: One-time payment</li>
+  <li>✅ Built with Next.js, NextAuth, Stripe, Resend</li>
+</ul>
 
-Market it pretty well, It has a great selling opportunity, People are actually loving the product.
-Business Model
+<h3>Growth Opportunity</h3>
+<p>Market it pretty well, It has a great selling opportunity, People are actually loving the product.</p>
 
-It is a one time payment which gets you lifetime access for $79.
-Target Customer
+<h3>Business Model</h3>
+<p>It’s a one time payment which gets you lifetime access for $79.</p>
 
-Developers, founders, indie hackers.
-Tech Stack
+<h3>Target Customer</h3>
+<p>Developers, founders, indie hackers.</p>
 
-NextJS, MantineUI, Prisma, NextAuth, Stripe, Resend.
-Reasons For Selling
+<h3>Tech Stack</h3>
+<p>NextJS, MantineUI, Prisma, NextAuth, Stripe, Resend.</p>
 
-I am a developer, not able to market it well.
-Expenses
+<h3>Reasons For Selling</h3>
+<p>I am a developer, not able to market it well.</p>
 
-$10.
-Asking Price Reasoning ⚖️
+<h3>Expenses</h3>
+<p>$10.</p>
 
-Very reasonable ask.
-Included Assets
+<h3>Asking Price Reasoning ⚖️</h3>
+<p>Very reasonable ask.</p>
 
-Website, domain, code.
-Competitors
+<h3>Included Assets</h3>
+<p>Website, domain, code.</p>
 
-shipsaas, shipfast.
+<h3>Competitors</h3>
+<p>shipsaas, shipfast.</p>
+
+
+
 `
-    },
+  },
 
 
 
-    {
-        id:8,
-        image: deal8,
-        title: 'Automatic Newsletter Creation Platform',
-        price: 2500,
-        arrprice: 165,
-        sarrprice: 100,
-        date: '2019-03-01',
-        subtitle: 'Mobile Apps',
-        content:`Overview 🔍OverviewMicro-SaaS with $156 ARR and 1,000 users.The target audience is Marketers.My project is the solution for busy marketers who want to engage with their email subscribers.We take content from any blog posts and craft engaging newsletters in seconds. These newsletters are automatically designed based on your website branding.
+  {
+    id: 8,
+    image: deal8,
+    title: 'Automatic Newsletter Creation Platform',
+    price: 2500,
+    arrprice: 165,
+    sarrprice: 100,
+    date: '2019-03-01',
+    subtitle: 'Mobile Apps',
+    content: `
+    <h2>Overview 🔍</h2>
+<p>Overview</p>
 
-My app natively integrates with email marketing services like MailChimp, Aweber, and Constant Contract to smooth the process of sending it to your audience.
+<p>Micro-SaaS with $156 ARR and 1,000 users.</p>
 
-You can learn more in the demo video.
+<p>The target audience is Marketers.</p>
 
-‍
-✅ $156 in ARR
-✅ 1,000 users
-✅ Business model: Freemium
-✅ Built with Laravel, Vue
-Growth Opportunity
+<p>My project is the solution for busy marketers who want to engage with their email subscribers.</p>
 
-Integrations on email providers marketplaces. Add more email templates (or generate them using AI).
-Business Model
+<p>We take content from any blog posts and craft engaging newsletters in seconds. These newsletters are automatically designed based on your website branding.</p>
 
-Freemium model. Unlimited package with more features costs $19/ month.
-Target Customer
+<p>My app natively integrates with email marketing services like MailChimp, Aweber, and Constant Contract to smooth the process of sending it to your audience.</p>
 
-Marketers.
-Tech Stack
+<p>You can learn more in the demo video.</p>
 
-Laravel, Vue.
-Reasons For Selling
+<ul>
+  <li>✅ $156 in ARR</li>
+  <li>✅ 1,000 users</li>
+  <li>✅ Business model: Freemium</li>
+  <li>✅ Built with Laravel, Vue</li>
+</ul>
 
-Focus on other projects.
-Expenses
+<h3>Growth Opportunity</h3>
+<p>Integrations on email providers’ marketplaces. Add more email templates (or generate them using AI).</p>
 
-$10/y domain, $60/m drag&drop email builder, $5/m hosting.
-Asking Price Reasoning ⚖️
+<h3>Business Model</h3>
+<p>Freemium model. Unlimited package with more features costs $19/ month.</p>
 
-Standard industry multiple.
-Included Assets
+<h3>Target Customer</h3>
+<p>Marketers.</p>
 
-Everything: website, domain, all social profiles, email list.
-Competitors
+<h3>Tech Stack</h3>
+<p>Laravel, Vue.</p>
 
-hoppycopy.co, topol.io, visme.co.
+<h3>Reasons For Selling</h3>
+<p>Focus on other projects.</p>
+
+<h3>Expenses</h3>
+<p>$10/y domain, $60/m drag&drop email builder, $5/m hosting.</p>
+
+<h3>Asking Price Reasoning ⚖️</h3>
+<p>Standard industry multiple.</p>
+
+<h3>Included Assets</h3>
+<p>Everything: website, domain, all social profiles, email list.</p>
+
+<h3>Competitors</h3>
+<p>hoppycopy.co, topol.io, visme.co.</p>
+
+
 `
-    },
+  },
 
 
 
 
-    {
-        id:9,
-        image: deal9,
-        title: 'AI Newsletter For Business Leaders',
-        price: 150000,
-        arrprice: 1200,
-        sarrprice: 27998,
-        date: '2023-06-07',
-        subtitle: 'Newsletters',
-        content:`
-Overview 🔍
-Overview
+  {
+    id: 9,
+    image: deal9,
+    title: 'AI Newsletter For Business Leaders',
+    price: 150000,
+    arrprice: 1200,
+    sarrprice: 27998,
+    date: '2023-06-07',
+    subtitle: 'Newsletters',
+    content: `<h2>Overview 🔍</h2>
+<p>Overview</p>
 
-Newsletter with $50,000 Annual Revenue, 50,000 subscribers, and 80 premium members.
+<p>Newsletter with $50,000 Annual Revenue, 50,000 subscribers, and 80 premium members.</p>
 
-The target audience is Business Leaders.
+<p>The target audience is Business Leaders.</p>
 
-Founded in May 2023, we’ve grown to 50k subscribers in under a year.
+<p>Founded in May 2023, we have grown to 50k subscribers in under a year.</p>
 
-We help business leaders make sense of the changes and discover ways to use AI to their advantage.
+<p>We help business leaders make sense of the changes and discover ways to use AI to their advantage.</p>
 
-We aim to go a step beyond just listing news developments, helping our audience understand why it matters and how to stay ahead of the curve.
+<p>We aim to go a step beyond just listing news developments, helping our audience understand why it matters and how to stay ahead of the curve.</p>
 
-We’ve been mentioned among the best AI Newsletters in the world.
+<p>We have been mentioned among the best AI Newsletters in the world.</p>
 
-Written by AI developers and researchers from NASA, Stanford, and Goldman Sachs.
+<p>Written by AI developers and researchers from NASA, Stanford, and Goldman Sachs.</p>
 
-‍
-✅ $50,000 in Annual Revenue
-✅ 50,000 subscribers and 80 premium members
-✅ Business model: Sponsorships, digital products, premium subscriptions
-✅ Built with Beehiiv, Vercel, Heroku, Notion
-Growth Opportunity
+<ul>
+  <li>✅ $50,000 in Annual Revenue</li>
+  <li>✅ 50,000 subscribers and 80 premium members</li>
+  <li>✅ Business model: Sponsorships, digital products, premium subscriptions</li>
+  <li>✅ Built with Beehiiv, Vercel, Heroku, Notion</li>
+</ul>
 
-More paids ads, launch more digital products, Launch an SME AI consultancy, develop premium newsletter, Increase affiliate marketing.
-Business Model
+<h3>Growth Opportunity</h3>
+<p>More paid ads, launch more digital products, launch an SME AI consultancy, develop premium newsletter, increase affiliate marketing.</p>
 
-We make money from direct sponsorships, digital products, premium subscriptions, and beehiiv ad network sponsorships.
-Target Customer
+<h3>Business Model</h3>
+<p>We make money from direct sponsorships, digital products, premium subscriptions, and Beehiiv ad network sponsorships.</p>
 
-Business Leaders interested in staying up to date and incorporating AI in their business.
-Tech Stack
+<h3>Target Customer</h3>
+<p>Business Leaders interested in staying up to date and incorporating AI in their business.</p>
 
-Beehiiv, Vercel, Heroku, Notion.
-Reasons For Selling
+<h3>Tech Stack</h3>
+<p>Beehiiv, Vercel, Heroku, Notion.</p>
 
-Moving on to other projects as full-time focus.
-Expenses
+<h3>Reasons For Selling</h3>
+<p>Moving on to other projects as full-time focus.</p>
 
-$1,000/mo.
-Asking Price Reasoning ⚖️
+<h3>Expenses</h3>
+<p>$1,000/mo.</p>
 
-Standard industry multiple.
-Included Assets
+<h3>Asking Price Reasoning ⚖️</h3>
+<p>Standard industry multiple.</p>
 
-Newsletter, subscribers, custom web app, automated daily newsletter production IP, digital products.
-Competitors
+<h3>Included Assets</h3>
+<p>Newsletter, subscribers, custom web app, automated daily newsletter production IP, digital products.</p>
 
-The Neuron, Superhuman, The Rundown.
+<h3>Competitors</h3>
+<p>The Neuron, Superhuman, The Rundown.</p>
+
 `
-    }
+  }
 ]
-
 
 
