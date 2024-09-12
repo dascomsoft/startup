@@ -57,7 +57,7 @@ const ProductDetail = ({ params }: { params: { id: string } }) => {
                                 <div dangerouslySetInnerHTML={{ __html: product.content }} />
                             </div>
                         </div>
-                        <div className="h-[65rem] block-2 shadow-xl border-2 border-gray-200 p-20 lg:h-[700px] sticky top-0">
+                        <div className="h-[65rem] block-2 shadow-xl border-2 border-gray-200 p-20 lg:h-[800px] sticky top-0">
                             <div className='py-[2rem] text-center'>
                                 <h1 className='text-3xl'>Asking Pricing</h1>
                                 <h1 className='text-2xl font-bold'>${product.price}</h1>
