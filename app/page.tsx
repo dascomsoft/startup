@@ -58,7 +58,7 @@ function Home() {
       setCurrentIndex((prevIndex) =>
         prevIndex === slides.length - 1 ? 0 : prevIndex + 1
       );
-    }, 3000); 
+    }, 3000);
 
     // 
     return () => clearInterval(interval);
@@ -141,7 +141,7 @@ function Home() {
                 return (
                   <div key={product.id}>
                     <Link href={`/${product.id}`}>
-                      <div  className="border-2 border-gray-200 cursor-pointer relative">
+                      <div className="border-2 border-gray-200 cursor-pointer relative">
                         <Image src={product.image} alt='image product' className="w-full relative" />
                         <div className="p-5 grid grid-cols-1 gap-4">
                           <h1 className="text-2xl font-semibold">{product.title}</h1>
@@ -192,11 +192,11 @@ function Home() {
             <h1 className="text-3xl font-semibold">Wall Of Love 😍</h1>
             <p className="text-xl">What our sellers are saying about us</p>
           </div>
-          <div className="testiomony-content">
-            <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-10">
-              <div className="testimony-review shadow-lg p-8 bg-slate-50 cursor-pointer transition duration-700 ease-in-out hover:scale-105 ">
-                <Image src={pic1} className='rounded-full' width={50} height={50} alt='pic author' />
-                <div className="testimony-text">
+          <div className="testiomony-content relative">
+            <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-10 relative">
+              <div className="testimony-review  relative shadow-lg p-8 bg-slate-50 cursor-pointer transition duration-700 ease-in-out hover:scale-105 ">
+                <Image src={pic1} className='rounded-full relative ' width={50} height={50} alt='pic author' />
+                <div className="testimony-text relative">
                   <h2 className='font-bold text-xl'>Tommy Lee</h2>
                   <div className='flex'>
                     <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg">
@@ -218,9 +218,12 @@ function Home() {
                   </div>
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae cupiditate, veniam enim quis rerum laboriosam repudiandae ipsam optio tenetur sint deserunt at itaque est. Reiciendis aspernatur debitis soluta inventore ex?</p>
                 </div>
+                <div className="bg-red-500 text-white p-4 absolute top-0 right-0 rounded-s-full">
+<svg width="30px" height="30px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="white"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.16 3.5C4.73 5.06 3.55 6.67 3.55 9.36c.16-.05.3-.05.44-.05 1.27 0 2.5.86 2.5 2.41 0 1.61-1.03 2.61-2.5 2.61-1.9 0-2.99-1.52-2.99-4.25 0-3.8 1.75-6.53 5.02-8.42L7.16 3.5zm7 0c-2.43 1.56-3.61 3.17-3.61 5.86.16-.05.3-.05.44-.05 1.27 0 2.5.86 2.5 2.41 0 1.61-1.03 2.61-2.5 2.61-1.89 0-2.98-1.52-2.98-4.25 0-3.8 1.75-6.53 5.02-8.42l1.14 1.84h-.01z"/></svg>
+</div>
               </div>
-              <div className="testimony-review shadow-lg p-8 bg-slate-50 cursor-pointer transition duration-700 ease-in-out hover:scale-105">
-                <Image src={pic2} className='rounded-full' width={50} height={50} alt='pic author' />
+              <div className=" relative testimony-review shadow-lg p-8 bg-slate-50 cursor-pointer transition duration-700 ease-in-out hover:scale-105">
+                <Image src={pic2} className='rounded-full relative' width={50} height={50} alt='pic author' />
                 <div className="testimony-text">
                   <h2 className='font-bold text-xl'>Angelo Parker</h2>
                   <div className='flex'>
@@ -243,9 +246,12 @@ function Home() {
                   </div>
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae cupiditate, veniam enim quis rerum laboriosam repudiandae ipsam optio tenetur sint deserunt at itaque est. Reiciendis aspernatur debitis soluta inventore ex?</p>
                 </div>
+                <div className="bg-red-500 text-white p-4 absolute top-0 right-0 rounded-s-full">
+<svg width="30px" height="30px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="white"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.16 3.5C4.73 5.06 3.55 6.67 3.55 9.36c.16-.05.3-.05.44-.05 1.27 0 2.5.86 2.5 2.41 0 1.61-1.03 2.61-2.5 2.61-1.9 0-2.99-1.52-2.99-4.25 0-3.8 1.75-6.53 5.02-8.42L7.16 3.5zm7 0c-2.43 1.56-3.61 3.17-3.61 5.86.16-.05.3-.05.44-.05 1.27 0 2.5.86 2.5 2.41 0 1.61-1.03 2.61-2.5 2.61-1.89 0-2.98-1.52-2.98-4.25 0-3.8 1.75-6.53 5.02-8.42l1.14 1.84h-.01z"/></svg>
+</div>
               </div>
-              <div className="testimony-review shadow-lg p-8 bg-slate-50 cursor-pointer transition duration-700 ease-in-out hover:scale-105">
-                <Image src={pic3} className='rounded-full' width={50} height={50} alt='pic author' />
+              <div className="testimony-review relative shadow-lg p-8 bg-slate-50 cursor-pointer transition duration-700 ease-in-out hover:scale-105">
+                <Image src={pic3} className='rounded-full relative' width={50} height={50} alt='pic author' />
                 <div className="testimony-text">
                   <h2 className='font-bold text-xl'>Anderson Nick</h2>
                   <div className='flex'>
@@ -268,9 +274,12 @@ function Home() {
                   </div>
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae cupiditate, veniam enim quis rerum laboriosam repudiandae ipsam optio tenetur sint deserunt at itaque est. Reiciendis aspernatur debitis soluta inventore ex?</p>
                 </div>
+                <div className="bg-red-500 text-white p-4 absolute top-0 right-0 rounded-s-full">
+<svg width="30px" height="30px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="white"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.16 3.5C4.73 5.06 3.55 6.67 3.55 9.36c.16-.05.3-.05.44-.05 1.27 0 2.5.86 2.5 2.41 0 1.61-1.03 2.61-2.5 2.61-1.9 0-2.99-1.52-2.99-4.25 0-3.8 1.75-6.53 5.02-8.42L7.16 3.5zm7 0c-2.43 1.56-3.61 3.17-3.61 5.86.16-.05.3-.05.44-.05 1.27 0 2.5.86 2.5 2.41 0 1.61-1.03 2.61-2.5 2.61-1.89 0-2.98-1.52-2.98-4.25 0-3.8 1.75-6.53 5.02-8.42l1.14 1.84h-.01z"/></svg>
+</div>
               </div>
-              <div className="testimony-review shadow-lg p-8 bg-slate-50 cursor-pointer transition duration-700 ease-in-out hover:scale-105">
-                <Image src={pic1} className='rounded-full' width={50} height={50} alt='pic author' />
+              <div className="testimony-review relative shadow-lg p-8 bg-slate-50 cursor-pointer transition duration-700 ease-in-out hover:scale-105">
+                <Image src={pic1} className='rounded-full relative' width={50} height={50} alt='pic author' />
                 <div className="testimony-text">
                   <h2 className='font-bold text-xl'>Kim Nilson</h2>
                   <div className='flex'>
@@ -293,19 +302,22 @@ function Home() {
                   </div>
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae cupiditate, veniam enim quis rerum laboriosam repudiandae ipsam optio tenetur sint deserunt at itaque est. Reiciendis aspernatur debitis soluta inventore ex?</p>
                 </div>
+                <div className="bg-red-500 text-white p-4 absolute top-0 right-0 rounded-s-full">
+<svg width="30px" height="30px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="white"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.16 3.5C4.73 5.06 3.55 6.67 3.55 9.36c.16-.05.3-.05.44-.05 1.27 0 2.5.86 2.5 2.41 0 1.61-1.03 2.61-2.5 2.61-1.9 0-2.99-1.52-2.99-4.25 0-3.8 1.75-6.53 5.02-8.42L7.16 3.5zm7 0c-2.43 1.56-3.61 3.17-3.61 5.86.16-.05.3-.05.44-.05 1.27 0 2.5.86 2.5 2.41 0 1.61-1.03 2.61-2.5 2.61-1.89 0-2.98-1.52-2.98-4.25 0-3.8 1.75-6.53 5.02-8.42l1.14 1.84h-.01z"/></svg>
+</div>
               </div>
             </div>
           </div>
-          </div>
-          </div>
+        </div>
+      </div>
 
       <div className="note-section py-[5rem]">
         <div className="container mx-auto px-4">
           <h1 className="text-3xl text-center">Join <span className="text-red-600 font-semibold">the Startups Market </span> Today💪</h1>
           <div className="bg-orange-600 p-[50px] text-white rounded-lg mt-10">
             <div className="grid place-items-center md:grid-cols-2 gap-10">
-            <p className="text-xl">Are you ready to enter the dynamic world of small business transactions? Start buying and selling with confidence on Startups Market, where every transaction is a step toward entrepreneurial success. Discover, connect, and transact with Startups Market  your premier marketplace for small business opportunities</p>
-            <Link href="/register" className="bg-white text-red-500 px-10 py-3 rounded-lg">Register Now</Link>
+              <p className="text-xl">Are you ready to enter the dynamic world of small business transactions? Start buying and selling with confidence on Startups Market, where every transaction is a step toward entrepreneurial success. Discover, connect, and transact with Startups Market  your premier marketplace for small business opportunities</p>
+              <Link href="/register" className="bg-white text-red-500 px-10 py-3 rounded-lg">Register Now</Link>
             </div>
           </div>
         </div>
