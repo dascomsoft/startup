@@ -1,5 +1,6 @@
 
 import React from 'react'
+import Link from 'next/link'
 
 function register() {
     return (
@@ -63,6 +64,7 @@ function register() {
                             className="w-full font-semibold text-xl p-4 bg-orange-600 text-white rounded-lg cursor-pointer hover:bg-slate-600"
                             id="submit-btn"
                         />
+                        <Link href="/login"><p className='mt-3 text-center'>Got an account already please <span className='text-blue-600 font-bold'>LogIn Here</span></p></Link>
                     </form>
                 </div>
             </div>
